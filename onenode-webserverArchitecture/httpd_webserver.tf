@@ -1,4 +1,4 @@
-# Null Resource type
+# Null Resource type added
 resource "null_resource" "webserver1HTTPD" {
  depends_on = [oci_core_instance.webservervmserver1]
  provisioner "remote-exec" {
